@@ -26,7 +26,7 @@ RUN apt-get -y install curl
 COPY ./ /app
 
 
-CMD sh ./Dockerfile.sh
+CMD sh /app/Dockerfile.sh
 # CMD node ./api
 
 
